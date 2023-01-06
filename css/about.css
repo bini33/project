@@ -1,0 +1,28 @@
+body {
+    background: #ff8001;
+}
+section {
+    width: inherit;
+    height: 720px;
+    position: relative;
+    top: 120px;
+    color: #fff;
+    padding: 0 35px 0;
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    /* border: 1px solid yellow; */
+}
+#about {
+    font-size: 110px;
+    font-weight: bolder;
+    color: #0180ff;
+	text-transform: lowercase;
+	margin: 0 0 0 60px;
+	text-indent: -60px;
+    /* border: 1px solid black; */
+}
+#content {
+    width: 590px;
+    margin-top: 20px;
+    line-height: 130%;
+    /* border: 1px solid blue; */
+}

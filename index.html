@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="Shortcut Icon" href="img/favicon.ico">
+
+    <title>Cindy's Tour Map</title>
+</head>
+<body>
+    <div id="wrap">
+        <!-- 상단 영역 -->
+        <header>
+            <h1><a href="index.html">Cindy's Tour Map</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="about.html">About Cindy</a></li>
+                    <li><a href="view.html">View the Map</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- 메뉴(나라) -->
+        <section id="contents">
+            <div class="country">
+                <div class="thumbnail" id="img1">
+                    <a href="asia.html"><img src="img/asia.jpg" alt="asia"></a>
+                </div>
+                <div class="title" id="title1">asia</div>
+            </div>
+
+            <div class="country">
+                <div class="thumbnail" id="img2">
+                    <a href="#"><img src="img/europe.jpg" alt="europe"></a>
+                </div>
+                <div class="title" id="title2">europe</div>
+            </div>
+
+            <div class="country">
+                <div class="thumbnail" id="img3">
+                    <a href="#"><img src="img/africa.jpg" alt="africa"></a>
+                </div>
+                <div class="title" id="title3">africa</div>
+            </div>
+
+            <div class="country">
+                <div class="thumbnail" id="img4">
+                    <a href="#"><img src="img/south-america.jpg" alt="north america"></a>
+                </div>
+                <div class="title" id="title4">north america</div>
+            </div>
+
+            <div class="country">
+                <div class="thumbnail" id="img5">
+                    <a href="#"><img src="img/north-america.jpg" alt="south america"></a>
+                </div>
+                <div class="title" id="title5">south america</div>
+            </div>
+
+        </section>
+
+        <!-- 하단 영역 -->
+        <footer>
+            <div class="link1">
+                <a href="https://www.instagram.com/bindaetteok" target="_blank">@bindaetteok</a>
+            </div>
+
+            <div class="link2">
+                <a href="https://www.notion.so/cindysportfolio/Cindy-s-portfolio-78f214cfb2214b9aa508042e146a6373" target="_blank">more portfolio</a>
+            </div>
+        </footer>
+
+        <div class="clear"></div>
+
+        <!-- 배경 컬러 변경 자바스크립트 -->
+
+        <script>
+            let img1 = document.querySelector('#img1');
+            let img2 = document.querySelector('#img2');
+            let img3 = document.querySelector('#img3');
+            let img4 = document.querySelector('#img4');
+            let img5 = document.querySelector('#img5');
+
+            let bg = document.querySelector('body');
+
+            let t1 = document.querySelector('#title1');
+            let t2 = document.querySelector('#title2');
+            let t3 = document.querySelector('#title3');
+            let t4 = document.querySelector('#title4');
+            let t5 = document.querySelector('#title5');
+
+            img1.addEventListener('mouseover', function(){
+                bg.style.backgroundColor = '#8200ff';
+                t1.style.color = '#08fe81';
+            });
+            img1.addEventListener('mouseout', function(){
+                bg.style.backgroundColor = '';
+                t1.style.color = '';
+            });
+
+            img2.addEventListener('mouseover', function(){
+                bg.style.backgroundColor = '#80ff00';
+                t2.style.color = '#0180ff';
+            });
+            img2.addEventListener('mouseout', function(){
+                bg.style.backgroundColor = '';
+                t2.style.color = '';
+            });
+
+            img3.addEventListener('mouseover', function(){
+                bg.style.backgroundColor = '#feff06';
+                t3.style.color = '#00feff';
+            });
+            img3.addEventListener('mouseout', function(){
+                bg.style.backgroundColor = '';
+                t3.style.color = '';
+            });
+
+            img4.addEventListener('mouseover', function(){
+                bg.style.backgroundColor = '#ff00ff';
+                t4.style.color = '#f00';
+            });
+            img4.addEventListener('mouseout', function(){
+                bg.style.backgroundColor = '';
+                t4.style.color = '';
+            });
+
+            img5.addEventListener('mouseover', function(){
+                bg.style.backgroundColor = '#0180ff';
+                t5.style.color = '#80ff00';
+            });
+            img5.addEventListener('mouseout', function(){
+                bg.style.backgroundColor = '';
+                t5.style.color = '';
+            });
+        </script>
+    </div>
+</body>
+</html>

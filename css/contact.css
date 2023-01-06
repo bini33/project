@@ -1,0 +1,80 @@
+body {
+    background: #0180ff;
+}
+
+/* 메인내용 */
+section {
+    width: inherit;
+    height: 800px;
+    position: relative;
+    top: 100px;
+    color: #fff;
+    padding: 0 35px 0;
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    /* border: 1px solid yellow; */
+}
+#about {
+    font-size: 130px;
+    font-weight: bolder;
+    color: #fff;
+	text-transform: lowercase;
+	margin: 0 0 90px 60px;
+	text-indent: -60px;
+}
+#content, #box {
+    height: 400px;
+    color: #fff;
+    font-weight: lighter;
+    float: left;
+    margin-right: 30px;
+    /* border: 1px solid red; */
+}
+#content {
+    width: 600px;
+}
+#content h4 {
+    width: 600px;
+    /* border: 1px solid black; */
+}
+#content p {
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: lighter;
+    /* border: 1px solid blue; */
+}
+#content ul li {
+    list-style: none;
+}
+#box input {
+    padding: 10px 15px;
+    width: 444px;
+    font-size: 16px;
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    margin: 5px;
+}
+#box button {
+    float: right;
+    margin: 5px;
+    color: white;
+    padding: 10px 50px;
+    background-color: blue;
+    border: none;
+    font-family: Futura, Helvetica, Arial, sans-serif;
+}
+#box button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+#box li textarea {
+    margin: 5px;
+    resize: none;
+    padding: 10px 14px;
+    font-size: 16px;
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+footer {
+    clear: both;
+}

@@ -1,0 +1,28 @@
+/* 본문 메뉴 */
+body {
+    background: #fff;
+    margin: 10px;
+}
+#contents {
+    width: 140%;
+    margin: 90px 60px 60px 40px;
+    /* border: 1px solid blue; */
+}
+.country {
+	margin: 60px 150px 30px 0;
+    /* border: 1px solid red; */
+    display: inline-block;
+}
+.thumbnail {
+    margin: 0 0 30px 60px;
+}
+.thumbnail a img {
+    width: 270px;
+}
+.title {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 130px;
+	text-transform: lowercase;
+	color: #000;
+	margin: -30px 0 0 0;
+}
